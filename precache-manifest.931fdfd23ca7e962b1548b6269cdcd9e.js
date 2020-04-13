@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9481b739b7093c5aa46624f4961ee9f0",
+    "revision": "de9027808f2b9fae2ffded72838e5a14",
     "url": "/React-Konva/index.html"
   },
   {
-    "revision": "d8fc2417180a6a33320e",
+    "revision": "bc59b3880ab07879b7ab",
     "url": "/React-Konva/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Konva/static/js/2.4a80feba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d8fc2417180a6a33320e",
-    "url": "/React-Konva/static/js/main.b023fa79.chunk.js"
+    "revision": "bc59b3880ab07879b7ab",
+    "url": "/React-Konva/static/js/main.6192444f.chunk.js"
   },
   {
     "revision": "6f02be596513ecf3a30d",

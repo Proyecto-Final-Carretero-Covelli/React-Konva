@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/React-Konva/precache-manifest.57dd4e71e95991d5da2d9543f500d11a.js"
+  "/React-Konva/precache-manifest.931fdfd23ca7e962b1548b6269cdcd9e.js"
 );
 
 self.addEventListener('message', (event) => {
