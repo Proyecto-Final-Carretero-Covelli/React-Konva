@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Konva/static/css/main.5f361e03.chunk.css",
+    "main.js": "/React-Konva/static/js/main.ac0b7551.chunk.js",
+    "main.js.map": "/React-Konva/static/js/main.ac0b7551.chunk.js.map",
+    "runtime-main.js": "/React-Konva/static/js/runtime-main.9d927a17.js",
+    "runtime-main.js.map": "/React-Konva/static/js/runtime-main.9d927a17.js.map",
+    "static/js/2.0be63b54.chunk.js": "/React-Konva/static/js/2.0be63b54.chunk.js",
+    "static/js/2.0be63b54.chunk.js.map": "/React-Konva/static/js/2.0be63b54.chunk.js.map",
+    "index.html": "/React-Konva/index.html",
+    "precache-manifest.e2cfef87f43efdd60586fa862aa3ae62.js": "/React-Konva/precache-manifest.e2cfef87f43efdd60586fa862aa3ae62.js",
+    "service-worker.js": "/React-Konva/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/React-Konva/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.0be63b54.chunk.js.LICENSE.txt": "/React-Konva/static/js/2.0be63b54.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/React-Konva/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d927a17.js",
+    "static/js/2.0be63b54.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.ac0b7551.chunk.js"
+  ]
+}
