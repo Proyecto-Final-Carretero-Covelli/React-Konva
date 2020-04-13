@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/React-Konva/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/React-Konva/static/js/main.6192444f.chunk.js",
-    "main.js.map": "/React-Konva/static/js/main.6192444f.chunk.js.map",
+    "main.js": "/React-Konva/static/js/main.fc54c207.chunk.js",
+    "main.js.map": "/React-Konva/static/js/main.fc54c207.chunk.js.map",
     "runtime-main.js": "/React-Konva/static/js/runtime-main.9d927a17.js",
     "runtime-main.js.map": "/React-Konva/static/js/runtime-main.9d927a17.js.map",
-    "static/js/2.4a80feba.chunk.js": "/React-Konva/static/js/2.4a80feba.chunk.js",
-    "static/js/2.4a80feba.chunk.js.map": "/React-Konva/static/js/2.4a80feba.chunk.js.map",
+    "static/js/2.7eb11eaa.chunk.js": "/React-Konva/static/js/2.7eb11eaa.chunk.js",
+    "static/js/2.7eb11eaa.chunk.js.map": "/React-Konva/static/js/2.7eb11eaa.chunk.js.map",
     "index.html": "/React-Konva/index.html",
-    "precache-manifest.931fdfd23ca7e962b1548b6269cdcd9e.js": "/React-Konva/precache-manifest.931fdfd23ca7e962b1548b6269cdcd9e.js",
+    "precache-manifest.c47e0e8d8cdafe302a797518e2d20f76.js": "/React-Konva/precache-manifest.c47e0e8d8cdafe302a797518e2d20f76.js",
     "service-worker.js": "/React-Konva/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/React-Konva/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.4a80feba.chunk.js.LICENSE.txt": "/React-Konva/static/js/2.4a80feba.chunk.js.LICENSE.txt"
+    "static/js/2.7eb11eaa.chunk.js.LICENSE.txt": "/React-Konva/static/js/2.7eb11eaa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9d927a17.js",
-    "static/js/2.4a80feba.chunk.js",
+    "static/js/2.7eb11eaa.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.6192444f.chunk.js"
+    "static/js/main.fc54c207.chunk.js"
   ]
 }
