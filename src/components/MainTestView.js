@@ -10,6 +10,10 @@ import {
 
 export default function MainTestView() {
   const [state, setState] = useState({ stageScale: 1, stageX: 0, stageY: 0 });
+  const [testVariable, setValueTestVariable] = useState({
+    name: "Variable X",
+    value: "2",
+  });
   let itemCounter = 1;
   const handleWheel = (e) => {
     // Posible transformacion a Custom Hook
@@ -54,6 +58,23 @@ export default function MainTestView() {
     );
   });
 
+  const handleClickVarX = (event) => {
+    console.log("hi");
+    setValueTestVariable((prevState) => ({
+      ...prevState,
+      value: prevState.value++,
+    }));
+  };
+
+  const variableX = (
+    <Variable
+      name={testVariable.name}
+      value={testVariable.value}
+      elementIndex={itemCounter++}
+      onClick={handleClickVarX}
+    />
+  );
+
   return (
     <div
       style={{
@@ -79,6 +100,7 @@ export default function MainTestView() {
           <Layer>
             {arrays}
             {variables}
+            {variableX}
           </Layer>
         </Stage>
       </div>

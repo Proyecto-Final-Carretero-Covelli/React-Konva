@@ -8,7 +8,7 @@ export default function Variable(props) {
   console.log(props);
 
   return (
-    <Group draggable="true">
+    <Group draggable="true" onClick={props.onClick}>
       <Text
         x={elementStartX}
         y={50}
