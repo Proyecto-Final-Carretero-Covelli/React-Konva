@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e220c8f2f9ff3605e674ded40bfb000",
+    "revision": "8e31ec865bd4f25be76cded8ade73de0",
     "url": "/React-Konva/index.html"
   },
   {
