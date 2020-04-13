@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Konva/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/React-Konva/static/js/main.f04c38c2.chunk.js",
-    "main.js.map": "/React-Konva/static/js/main.f04c38c2.chunk.js.map",
+    "main.js": "/React-Konva/static/js/main.c15663ff.chunk.js",
+    "main.js.map": "/React-Konva/static/js/main.c15663ff.chunk.js.map",
     "runtime-main.js": "/React-Konva/static/js/runtime-main.9d927a17.js",
     "runtime-main.js.map": "/React-Konva/static/js/runtime-main.9d927a17.js.map",
     "static/js/2.4a80feba.chunk.js": "/React-Konva/static/js/2.4a80feba.chunk.js",
     "static/js/2.4a80feba.chunk.js.map": "/React-Konva/static/js/2.4a80feba.chunk.js.map",
     "index.html": "/React-Konva/index.html",
-    "precache-manifest.ccfc85921e478083f39fca6ecebaf9a8.js": "/React-Konva/precache-manifest.ccfc85921e478083f39fca6ecebaf9a8.js",
+    "precache-manifest.f58f3974d44d607fed1d4c85c4dea78e.js": "/React-Konva/precache-manifest.f58f3974d44d607fed1d4c85c4dea78e.js",
     "service-worker.js": "/React-Konva/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/React-Konva/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.4a80feba.chunk.js.LICENSE.txt": "/React-Konva/static/js/2.4a80feba.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9d927a17.js",
     "static/js/2.4a80feba.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.f04c38c2.chunk.js"
+    "static/js/main.c15663ff.chunk.js"
   ]
 }
