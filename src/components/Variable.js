@@ -1,11 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Rect, Text, Group } from "react-konva";
 
 export default function Variable(props) {
   const elementStartX = props.elementIndex * 100;
   const sizeRect = 50;
-
-  console.log(props);
 
   return (
     <Group draggable="true" onClick={props.onClick}>

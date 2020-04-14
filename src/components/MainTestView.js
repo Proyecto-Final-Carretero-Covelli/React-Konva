@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Stage, Layer, Rect, Text, Group } from "react-konva";
+import { Stage, Layer, Rect, Text, Group, useStrictMode } from "react-konva";
 import Konva from "konva";
 import Array from "./Array";
 import Variable from "./Variable";
@@ -12,7 +12,7 @@ export default function MainTestView() {
   const [state, setState] = useState({ stageScale: 1, stageX: 0, stageY: 0 });
   const [testVariable, setValueTestVariable] = useState({
     name: "Variable X",
-    value: "2",
+    value: 2,
   });
   let itemCounter = 1;
   const handleWheel = (e) => {
@@ -38,6 +38,15 @@ export default function MainTestView() {
     });
   };
 
+  const variableX = (
+    <Variable
+      name={testVariable.name}
+      value={testVariable.value}
+      elementIndex={itemCounter++}
+      onClick={handleClickVarX}
+    />
+  );
+
   const arrays = declaredArrays.map((array) => {
     return (
       <Array
@@ -58,23 +67,14 @@ export default function MainTestView() {
     );
   });
 
-  const handleClickVarX = (event) => {
-    console.log("hi");
-    setValueTestVariable((prevState) => ({
-      ...prevState,
-      value: prevState.value++,
-    }));
-  };
-
-  const variableX = (
-    <Variable
-      name={testVariable.name}
-      value={testVariable.value}
-      elementIndex={itemCounter++}
-      onClick={handleClickVarX}
-    />
-  );
-
+  function handleClickVarX() {
+    console.log("Valor Variable X State: " + testVariable.value);
+    setValueTestVariable((prevState) => {
+      const value = prevState.value + 1;
+      const newObj = { ...prevState, value: value };
+      return newObj;
+    });
+  }
   return (
     <div
       style={{
